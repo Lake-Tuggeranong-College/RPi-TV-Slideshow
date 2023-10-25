@@ -1,2 +1,2 @@
 # RPi-TV-Slideshow
-Raspberry Pi TV Slideshow Files
+This Repo Contains the Scripts needed for setup of a RPi to display a slideshow on a TV at LTC
