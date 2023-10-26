@@ -8,7 +8,7 @@ sudo apt update
 HOSTNAME=$(hostname)
 
 # Retrave MACADDRESS List from the github repo
-LIST=$(curl #URL GOES HERE)
+LIST=$(curl https://raw.githubusercontent.com/Lake-Tuggeranong-College/RPi-TV-Slideshow/2023-Rewrite/SLIDESHOWLIST.json)
 
 SLIESHOWURL=$(jq '.$HOSTNAME.Slideshow' LIST)
 
