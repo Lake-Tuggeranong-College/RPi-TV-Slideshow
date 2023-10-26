@@ -17,7 +17,7 @@ chromium-browser $SLIESHOWURL --kiosk --incongnito
 
 
 
-waitForNetworkConnection () {
+function waitForNetworkConnection () {
     while [ "$responce" != "200" ]
     do
     res=$(curl -Is https://www.google.com | awk '/^HTTP/{print $2}')
