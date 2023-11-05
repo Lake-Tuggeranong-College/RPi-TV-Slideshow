@@ -5,6 +5,7 @@ waitForNetworkConnection() {
     do
     res=$(curl -Is https://www.google.com | awk '/^HTTP/{print $2}')
     echo $res
+	sleep 30
 	done
 }
 
@@ -26,6 +27,11 @@ jqFilter=$(echo .$HOSTNAME.Slideshow)
 echo $jqFilter
 
 SLIDESHOWURL=$(echo $LIST | jq $jqFilter)
+
+if [ $SLIDESHOWURL = "null" ]
+then
+SLIDESHOWURL=$(echo $LIST | jq '.GENERIC.Slideshow')
+fi
 
 echo $SLIDESHOWURL
 
