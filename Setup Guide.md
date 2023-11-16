@@ -15,7 +15,7 @@ When setting the host name, make sure that it is all one word with no spaces
 After install, open the terminal and run the following commands
 ```bash
 sudo apt update
-sudo apt update
+sudo apt upgrade
 sudo apt install jq 
 ```
 
