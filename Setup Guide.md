@@ -11,13 +11,15 @@ Follow normal procedure for installing Raspberry Pi OS.
 
 When setting the host name, make sure that it is all one word with no spaces
 
-# Getting needed Dependencies
+# Getting and setting up needed Dependencies
 After install, open the terminal and run the following commands
 ```bash
 sudo apt update
 sudo apt upgrade
 sudo apt install jq 
 ```
+
+After running these Commands, go into the Raspberry Pi config. Inside the Display Tab, turn off Screen Blanking.
 
 # Downloading the Script and making it run on boot
 Download the script by running the following command
