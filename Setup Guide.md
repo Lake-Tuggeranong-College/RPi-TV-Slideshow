@@ -6,12 +6,10 @@ Add images
 # Setup Guide
 This guide will teach you how to setup a PI running Raspberry Pi OS for use as a TV Slideshow client at LTC
 
-# Installing the OS
+## Installing the OS
 Follow normal procedure for installing Raspberry Pi OS. 
 
-When setting the host name, make sure that it is all one word with no spaces
-
-# Getting and setting up needed Dependencies
+## Getting and setting up needed Dependencies
 After install, open the terminal and run the following commands
 ```bash
 sudo apt update
@@ -21,7 +19,12 @@ sudo apt install jq
 
 After running these Commands, go into the Raspberry Pi config. Inside the Display Tab, turn off Screen Blanking.
 
-# Downloading the Script and making it run on boot
+After changing the screen blanking option in the RPI config, run `sudo nano /etc/hostname` and chnage the hostname inside the file. E.G `Pav2Upstairs`
+
+### NOTE!
+When chosing a hostname, it has to be one word, and can **ONLY** have letters and numbers.
+
+## Downloading the Script and making it run on boot
 Download the script by running the following command
 ```bash
 wget -O main.sh https://raw.githubusercontent.com/Lake-Tuggeranong-College/RPi-TV-Slideshow/2023-Rewrite/main.sh
@@ -36,7 +39,12 @@ startldxe-pi&
 lxterminal --command="/bin/bash -c '~/main.sh';"
 ```
 
-# Adding Pi to Slideshow List
+## Setting up automatic reboot
+In a terminal run `sudo crontab -e`, if prompted to choose an editor, choose nano.
+
+At the end of the file append the following `0 0,12 * * * /sbin/reboot`
+
+## Adding Pi to Slideshow List
 Using your main computer, On the github repo, inside `SLIDESHOW.json` add a new entry following the structure below
 ```json
 "HOSTNAME": {
@@ -53,7 +61,7 @@ Commit and Push after done
 ### !!NOTE!!
 The Slideshow URL needs to be a speicaly generated one, follow "Getting URL for Slideshow" to find out how to get the URL.
 
-# Getting URL for slideshow
+## Getting URL for slideshow
 Using your main computer, open the google slide you wish to be displayed.
 
 Click File, Share, Publish to Web. Copy the Following settings
