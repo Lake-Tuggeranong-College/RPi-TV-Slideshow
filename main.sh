@@ -15,8 +15,7 @@ waitForNetworkConnection
 
 sudo timedatectl set-ntp off
 dateTimeAPIResponse=$(curl "http://worldtimeapi.org/api/timezone/Australia/Sydney")
-unixTimeNoOffset=$(echo $dateTimeAPIResponse | jq .unixtime)
-unixtime=$((unixTimeNoOffset+39600))
+unixTime=$(echo $dateTimeAPIResponse | jq .unixtime)
 sudo date -s @$unixtime
 
 HOSTNAME=$(hostname)
