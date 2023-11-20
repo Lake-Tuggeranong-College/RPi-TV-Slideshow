@@ -3,7 +3,7 @@
 waitForNetworkConnection() {
     while [ "$res" != "200" ]
     do
-    res=$(curl -Is https://www.google.com | awk '/^HTTP/{print $2}')
+    res=$(curl -Is https://www.example.com | awk '/^HTTP/{print $2}')
     echo $res
 	sleep 30
 	done
