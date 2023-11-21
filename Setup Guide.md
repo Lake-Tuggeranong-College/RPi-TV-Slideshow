@@ -45,7 +45,7 @@ In a terminal run `sudo crontab -e`, if prompted to choose an editor, choose nan
 At the end of the file append the following `0 0,12 * * * /sbin/reboot`
 
 ## Adding Pi to Slideshow List
-Using your main computer, On the github repo, inside `SLIDESHOW.json` add a new entry following the structure below
+Using your main computer, On the github repo, inside `SLIDESHOWLIST.json` add a new entry following the structure below
 ```json
 "HOSTNAME": {
     "Slideshow": "SLIDESHOWURL"
