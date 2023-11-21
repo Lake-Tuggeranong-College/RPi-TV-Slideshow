@@ -1,9 +1,36 @@
 {
-"ltctvtest": {
-    "Slideshow": "https://docs.google.com/presentation/d/1nTnAIrXSFnNW3Pn7rV9Qv0890TaaUILoxIt5NhfqIRM/pub?start=true&loop=true&delayms=10000"
-},
-"GENERIC": {
-    "Slideshow": "https://docs.google.com/presentation/d/1nTnAIrXSFnNW3Pn7rV9Qv0890TaaUILoxIt5NhfqIRM/pub?start=true&loop=true&"
-}
-
-}
+    "Pav6Lecture": {
+        "Slideshow": "https://docs.google.com/presentation/d/e/2PACX-1vTgF6kEtfWvrg0O2P8JeTiIVn3r-oe8IcRCiLJS2Ow_i62yoWQBjNytpWsrB90iK-Yr2R7yhdkr8DwT/pub?start=true&loop=true&delayms=10000"
+    },
+    "Pav1Maths": {
+        "Slideshow": "https://docs.google.com/presentation/d/e/2PACX-1vR-HWf8y66AXuDejREzaIu_TObr9x2GgDkbwucy2XbvHw9QBUjDwfu0mIHg6FP6sRuu5MGzyLsV-QRr/pub?start=true&loop=true&delayms=10000"
+    },
+    "Pav3Upstairs": {
+        "Slideshow": "https://docs.google.com/presentation/d/e/2PACX-1vTt0EObAgt3KSIphF7N5FnfrFtWGrv5t1XYGbM3wfFmWaROc0Hbv2TJRDykfWStwkqkpxv2uIPMhqc5/pub?start=true&loop=true&delayms=10000"
+    },
+    "Pav4Arts": {
+        "Slideshow": "https://docs.google.com/presentation/d/e/2PACX-1vTv5lDcefLOj7TUR4ZUlTqX84e2HfM94VoGUP_kGyE6RS_Y2OfniEoTq7SaWvVHkkcjj_TQELA17-wY/pub?start=true&loop=true&delayms=10000"
+    },
+    "TradeTraining": {
+        "Slideshow": "https://docs.google.com/presentation/d/e/2PACX-1vQ0SRGPhX-N-58giPvCz7DGmJwkLeGLXKTaTBwMhdPWc5BL_y7ydy3hU3mtL1Bj_NgwSbB-D4RXl86O/pub?start=true&loop=true&delayms=10000"
+    },
+    "Pav3Downstairs": {
+        "Slideshow": "https://docs.google.com/presentation/d/e/2PACX-1vTGkLtwo0SjPYC9gXtz6f2EGXDljI5dFQWwcagGc4W0Waj6_v_uZ2Enn1vGVe02ZgaG545ER2UDt83A/pub?start=true&loop=true&delayms=10000"
+    },
+    "Pav1Sciences": {
+        "Slideshow": "https://docs.google.com/presentation/d/e/2PACX-1vQXO5rXO9ZJgHJyQ8nTlWYpOoZDCx_L0D9vJxAyXxTeaLyCAzTkIgXpJf0Ytqaez_1AWaKeJwTioA5V/pub?start=true&loop=true&delayms=10000"
+    },
+    "Pav5Theatre": {
+        "Slideshow": "https://docs.google.com/presentation/d/e/2PACX-1vQkyWzWv76u4mjDo4aVjbg5xb8Xj4Fy3zUFw4CgqJI-Thxe4IeYobMs6zrG9PKJk8Jy2GkGuk7u76L8/pub?start=true&loop=true&delayms=10000"
+    },
+    "LibraryUpstairs": {
+        "Slideshow": "https://docs.google.com/presentation/d/e/2PACX-1vRZ1CI6e2dy9kuiLc2uw-WSu15JGsDOHJZsBxyNx-CZDtls8Xg6Hf7nRENWPKsl7GqNoaJNKPdSnNPo/pub?start=true&loop=true&delayms=10000"
+    },
+    "LibraryDownstairs": {
+        "Slideshow": "https://docs.google.com/presentation/d/e/2PACX-1vTeIcY09JIgzvkF2Dlf1N96iSWunxfixRdTWOSP0cCMgeptv8FnJspuTlQvI9Qe80Wh9DlunvNg3rZV/pub?start=true&loop=true&delayms=10000"
+    },
+    "GENERIC": {
+        "Slideshow": "https://docs.google.com/presentation/d/e/2PACX-1vSxai2Av-Ro8ieMoKHjpUBodMwfjNjB7JPWZhmF8E8bH8iuR6vdS6CCQp6oOZlD0ff662HQK76kugQb/pub?start=true&loop=true&delayms=10000"
+    }
+    
+    }
