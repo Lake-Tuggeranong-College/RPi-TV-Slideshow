@@ -22,7 +22,7 @@ After running these Commands, go into the Raspberry Pi config. Inside the Displa
 After changing the screen blanking option in the RPI config, run `sudo nano /etc/hostname` and chnage the hostname inside the file. E.G `Pav2Upstairs`
 
 ### NOTE!
-When chosing a hostname, it has to be one word, and can **ONLY** have letters and numbers.
+When choosing a hostname, it has to be one word, and can **ONLY** have letters and numbers.
 
 ## Downloading the Script and making it run on boot
 Download the script by running the following command
@@ -38,6 +38,14 @@ Append the following to the file
 startldxe-pi&
 lxterminal --command="/bin/bash -c '~/main.sh';"
 ```
+or using nano edit crontab using (crontab -e)
+then add @reboot /bin/bash $HOME/main.sh
+Also install unclutter 
+Append this line to /etc/xdg/lxsession/LXDE-pi/autostart
+@unclutter -idle 0
+
+Also set the backend to X11 by using sudo Raspi-config
+
 
 ## Setting up automatic reboot
 In a terminal run `sudo crontab -e`, if prompted to choose an editor, choose nano.
