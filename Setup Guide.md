@@ -35,7 +35,7 @@ Using nano edit the `~/.profile` file (`nano ~/.profile`).
 
 Append the following to the file
 ```bash
-startldxe-pi&
+startlxde-pi&
 lxterminal --command="/bin/bash -c '~/main.sh';"
 ```
 or using nano edit crontab using (crontab -e)
